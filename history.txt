@@ -1,0 +1,500 @@
+   11  [ec2-user@ip-10-0-42-153 /]$ total 12
+   12  -bash: total: command not found
+   13  [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x  3 ec2-user ec2-user  95 Jun 16 11:22 .
+   14  -bash: drwxrwxr-x: command not found
+   15  [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x 16 ec2-user ec2-user 229 Jun 15 12:46 ..
+   16  -bash: drwxrwxr-x: command not found
+   17  [ec2-user@ip-10-0-42-153 /]$ -rwxr--r--  1 ec2-user ec2-user   0 Jun 16 11:09 file.txt
+   18  -bash: -rwxr--r--: command not found
+   19  [ec2-user@ip-10-0-42-153 /]$ -rw-rw-r--  1 ec2-user ec2-user 143 Jun 16 10:02 .process_management
+   20  -bash: -rw-rw-r--: command not found
+   21  [ec2-user@ip-10-0-42-153 /]$ -rwxrwxr-x  1 ec2-user ec2-user 156 Jun 16 11:52 script.sh
+   22  -bash: -rwxrwxr-x: command not found
+   23  [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x  2 ec2-user ec2-user  24 Jun  4 07:48 test
+   24  -bash: drwxrwxr-x: command not found
+   25  [ec2-user@ip-10-0-42-153 /]$ -rw-rw-r--  1 ec2-user ec2-user   8 Jun  4 07:27 test1.txt
+   26  -bash: -rw-rw-r--: command not found
+   27  [ec2-user@ip-10-0-42-153 /]$ [ec2-user@ip-10-0-42-153 /]echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+   28  -bash: [ec2-user@ip-10-0-42-153: command not found
+   29  [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+   30  [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE
+   31  [ec2-user@ip-10-0-42-153 /]$ export JULIIA_VARIABLE=250425-wdm
+   32  [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE
+   33  250425-wdm
+   34  [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+   35  [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' >> /opt/250425-wdm/juliia/.process_management
+   36  [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' >> /opt/250425-wdm/juliia/.process_management
+   37  [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+   38  06/16/25
+   39  Welcome to Amazon server
+   40  Mem:           952M        217M        380M        480K        353M        560M
+   41  Number of root processes: 85
+   42  250425-wdm
+   43  PID 23813 PPID 1
+   44  PID 23813 PPID 1
+   45  [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' | uniq >> /opt/250425-wdm/juliia/.process_management
+   46  [ec2-user@ip-10-0-42-153 /]$
+   47  [ec2-user@ip-10-0-42-153 /]$ Игорь@Ihor MINGW64 ~
+   48  -bash: Игорь@Ihor: command not found
+   49  [ec2-user@ip-10-0-42-153 /]$ $ ssh ec2-user@linux.itcareerhub.de
+   50  -bash: $: command not found
+   51  [ec2-user@ip-10-0-42-153 /]$ Last login: Tue Jun 24 16:55:59 2025 from 46.96.30.54
+   52  -bash: Last: command not found
+   53  [ec2-user@ip-10-0-42-153 /]$    ,     #_
+   54  -bash: ,: command not found
+   55  [ec2-user@ip-10-0-42-153 /]$    ~\_  ####_        Amazon Linux 2
+   56  -bash: ~_: command not found
+   57  [ec2-user@ip-10-0-42-153 /]$   ~~  \_#####\
+   58  >   ~~     \###|       AL2 End of Life is 2026-06-30.
+   59  -bash: AL2: command not found
+   60  -bash: ~~: command not found
+   61  [ec2-user@ip-10-0-42-153 /]$   ~~       \#/ ___
+   62  -bash: ~~: command not found
+   63  [ec2-user@ip-10-0-42-153 /]$    ~~       V~' '->
+   64  -bash: syntax error near unexpected token `newline'
+   65  [ec2-user@ip-10-0-42-153 /]$     ~~~         /    A newer version of Amazon Linux is available!
+   66  -bash: ~~~: command not found
+   67  [ec2-user@ip-10-0-42-153 /]$       ~~._.   _/
+   68  -bash: ~~._.: command not found
+   69  [ec2-user@ip-10-0-42-153 /]$          _/ _/       Amazon Linux 2023, GA and supported until 2028-03-15.
+   70  -bash: _/: No such file or directory
+   71  [ec2-user@ip-10-0-42-153 /]$        _/m/'           https://aws.amazon.com/linux/amazon-linux-2023/
+   72  >
+   73  > 18 package(s) needed for security, out of 18 available
+   74  > Run "sudo yum update" to apply all updates.
+   75  > [ec2-user@ip-10-0-42-153 ~]$ cd opt/250425-wdm/juliia
+   76  > -bash: cd: opt/250425-wdm/juliia: No such file or directory
+   77  > [ec2-user@ip-10-0-42-153 ~]$ cd /
+   78  > [ec2-user@ip-10-0-42-153 /]$ ls -l /opt/250425-wdm/juliia
+   79  > total 8
+   80  > -rwxr--r-- 1 ec2-user ec2-user   0 Jun 16 11:09 file.txt
+   81  > -rwxrwxr-x 1 ec2-user ec2-user 156 Jun 16 11:52 script.sh
+   82  > drwxrwxr-x 2 ec2-user ec2-user  24 Jun  4 07:48 test
+   83  > -rw-rw-r-- 1 ec2-user ec2-user   8 Jun  4 07:27 test1.txt
+   84  > [ec2-user@ip-10-0-42-153 /]$ sudo find /opt -type f -name "*process_management*"
+   85  > /opt/250425-ptm/svetlana_p/.process_management
+   86  > /opt/250425-ptm/svetlana.r/.process_management
+   87  > /opt/250425-ptm/KaterynaKorzun/.process_management
+   88  > /opt/250425-ptm/oleksandra/.process_management
+   89  > /opt/250425-ptm/maksym.t/.process_management
+   90  > /opt/250425-ptm/olga/.process_management.txt
+   91  > /opt/250425-ptm/raisa/.process_management.txt
+   92  > /opt/250425-ptm/Sergii_M/.process_management
+   93  > /opt/250425-ptm/sonya_y/.process_management
+   94  > /opt/250425-ptm/vladimir.s/.process_management
+   95  > /opt/250425-ptm/alena/.process_management
+   96  > /opt/250425-ptm/andrew/.process_management
+   97  > /opt/250425-ptm/nina/.process_management
+   98  > /opt/250425/Johannes/.process_management
+   99  > /opt/050525-wde/blitzkrieg_bop/.process_management.txt
+  100  > /opt/050525-wde/FEDOR_SKOKAN/.process_management
+  101  > /opt/131224-wdm/irinamaier/.process_management
+  102  > /opt/131224-wdm/nataliia/.process_management
+  103  > /opt/131224-wdm/vladyslav/.process_management
+  104  > /opt/131224-wdm/yuliiaT/.process_management
+  105  > /opt/131224-wdm/ArtemK/.process_management
+  106  > /opt/131224-wdm/Rumiia/.process_management
+  107  > /opt/131224-wdm/Viktor/.process_management
+  108  > /opt/131224-wdm/Alla/.process_management
+  109  > /opt/131224-wdm/Kushnir_Yevhenii/.process_management
+  110  > /opt/131224-wdm/rechyn/.process_management
+  111  > /opt/131224-wdm/givi/.process_management
+  112  > /opt/131224-wdm/koriahin-serhii/.process_management
+  113  > /opt/131224-wdm/normanfolder/.process_management
+  114  > /opt/131224-wdm/NikIst/.process_management
+  115  > /opt/131224-wdm/nastyaKo/.process_management.txt
+  116  > /opt/131224-wdm/dennis/.process_management
+  117  > /opt/131224-wdm/Sadvakassof/.process_management
+  118  > /opt/131224-wdm/.illiashenko_toni/.process_management
+  119  > /opt/131224-WDM/OLHA_PREKRASNA/.process_management
+  120  > /opt/111124-ptm/ElenaM/.process_management
+  121  > /opt/111124-ptm/ElenaM.process_management
+  122  > /opt/111124-ptm/Ilya/.process_management
+  123  > /opt/111124-ptm/toyli/.process_management
+  124  > /opt/111124-ptm/Oleksandr_Kiselov/.process_management
+  125  > /opt/041124/VALERIYA_VARIABLE/.process_management
+  126  > /opt/091224-ptm/VAndreev/.process_management
+  127  > /opt/091224-ptm/ASeller/.process_management
+  128  > /opt/091224-ptm/dmitryp/.process_management
+  129  > /opt/091224-ptm/Zashalovskiy/.process_management
+  130  > /opt/091224-ptm/Yaromyr/.process_management
+  131  > /opt/091224-ptm/MaksymM/.process_management
+  132  > /opt/091224-ptm/MaksymM/all_homeworks/homework_6/.process_management
+  133  > /opt/240125-wde/michael_belousov/.process_management
+  134  > /opt/240125-wde/tatjanafendel/.process_management
+  135  > /opt/240125-wde/pavel_liutskanov/.process_management
+  136  > /opt/240125-wde/denys_ryzhenko/.process_management
+  137  > /opt/240125-wde/Ella_Gubareva/.process_management
+  138  > /opt/240125-wde/mark_kozov/.process_management
+  139  > /opt/240125-wde/Ivan_Krykunov/.process_management
+  140  > /opt/240125-wde/MihailMalai/.process_management
+  141  > /opt/240125-wde/.process_management
+  142  > /opt/240125-wde/ruslan/.process_management
+  143  > /opt/210225-ptm/xhumanalex/.process_management
+  144  > /opt/210225-ptm/vadym/.process_management
+  145  > /opt/210225-ptm/schwab/.process_management
+  146  > /opt/210225-ptm/daniil/.process_management
+  147  > /opt/210225-ptm/Pankow/.process_management
+  148  > /opt/210225-ptm/Oleg/process_management.txt
+  149  > /opt/210225-ptm/Anastasiia/.process_management
+  150  > /opt/210225-ptm/mark/.process_management
+  151  > /opt/210225-ptm/lebedieva/.process_management
+  152  > /opt/210225-ptm/OLEKSANDR_P/.process_management
+  153  > /opt/210225-ptm/ruslan/.process_management
+  154  > /opt/210225-ptm/petruk_yevheniia/.process_management
+  155  > /opt/091224/Oleh404/.process_management
+  156  > /opt/240125_WDE/CRISTINA_BUGA/.process_management
+  157  > /opt/240125_wde/cristina_buga/.process_management
+  158  > /opt/240125_wde/cristina_buga/process_management
+  159  > /opt/280225-wdm/dimov_dmitri/.process_management
+  160  > /opt/280225-wdm/dmitriy_b/.process_management
+  161  > /opt/280225-wdm/Max/.process_management
+  162  > /opt/280225-wdm/Kristina/.process_management
+  163  > /opt/280225-wdm/liga3/.process_management
+  164  > /opt/280225-wdm/Anita_T/.process_management
+  165  > /opt/280225-wdm/olga_bibikova/.process_management
+  166  > /opt/280225-wdm/AnastasiiaS/.process_management.txt
+  167  > /opt/280225-wdm/alina_lomonos/.process_management
+  168  > /opt/280225-wdm/fink/.process_management
+  169  > /opt/280225-wdm/inna/.process_management
+  170  > /opt/280225-wdm/kateryna_desiatyryk/.process_management
+  171  > /opt/280225-wdm/alena-horbunova/.process_management
+  172  > /opt/250125-wde/240125-wde/.process_management
+  173  > /opt/250125-wde/240125-wde/process_management
+  174  > /opt/260824-wde/Olena_Yasynetska/process_management
+  175  > /opt/260824-wde/Olena_Yasynetska/.process_management
+  176  > /opt/260824-wde/elizavetakulikova/.process_management
+  177  > /opt/160924-ptm/Liza/.process_management.txt
+  178  > /opt/160924-ptm/Liza/.process_management
+  179  > /opt/160924-ptm/Liza/.process_management.txt.swp
+  180  > /opt/160924-ptm/liljana/.process_management.txt
+  181  > /opt/160924-ptm/narizhnyi_o/.process_management
+  182  > /opt/160924-ptm/Andrii_T./..process_management.txt
+  183  > /opt/160924-ptm/Andrii_T./.process_management.txt
+  184  > /opt/160924-ptm/constantin_k/.process_management_const
+  185  > /opt/160924-ptm/.process_management
+  186  > /opt/160924-ptm/Urenov_D/.process_management.swp
+  187  > /opt/160924-ptm/Urenov_D/.process_management
+  188  > /opt/160924-ptm/SERGE/.process_management
+  189  > /opt/160924-ptm/SERGE/.process_managementssudo
+  190  > /opt/160924-ptm/SERGE/.process_managementtouch
+  191  > /opt/160924-ptm/SERGE/.process_managementsudo
+  192  > /opt/160924-ptm/tsurkan/.process_management
+  193  > /opt/160924-ptm/kopan_dmytro/.process_management
+  194  > /opt/250425-wdm/Hrytsenko/.process_management
+  195  > /opt/250425-wdm/margaritap/.process_management
+  196  > /opt/250425-wdm/Aljona/.process_management
+  197  > /opt/250425-wdm/chumak/.process_management
+  198  > /opt/250425-wdm/sasha-kot/.process_management
+  199  > /opt/250425-wdm/juliia/.process_management
+  200  > /opt/250425-wdm/LIUDMYLA/.process_management
+  201  > /opt/250425-wdm/Oleksandr/.process_management
+  202  > /opt/281024-wdm/Pavlo_Panukhnyk/.process_management
+  203  > /opt/281024-wdm/Ruslan_Sokolov/January/files_and_folders_January/.process_management
+  204  > /opt/281024-wdm/Maryna-Pakulova/.process_management
+  205  > /opt/281024-wdm/Yuliia_Pomazan/.process_management
+  206  > /opt/281024-wdm/Nataliia_Oliinyk/process_management.txt
+  207  > /opt/281024-wdm/Nataliia_Oliinyk/.process_management
+  208  > /opt/281024-wdm/late-@Valy/.process_management
+  209  > /opt/281024-wdm/Azamat/.process_management
+  210  > /opt/281024-wdm/Gustavo/.process_management
+  211  > /opt/281024-wdm/Anastasiia_Ihnatkova/.process_management
+  212  > /opt/281024-wdm/Vladyslav_Skakun/.process_management
+  213  > /opt/281024-wdm/DmitriiO/.process_management
+  214  > /opt/281024-wdm/Alina_Svitlychna/.process_management
+  215  > /opt/281024-wdm/.process_management
+  216  > /opt/281024-wdm/Miroshnichenko/.process_management
+  217  > /opt/281024-wdm/Roienko_Kateryna/.process_management
+  218  > /opt/281024-wdm/Daniel_Bich/.process_management
+  219  > /opt/281024-wdm/Daniela_Roehrig2/process_management.txt
+  220  > /opt/281024-wdm/Daniela_Roehrig2/-process_management
+  221  > /opt/281024-wdm/Daniela_Roehrig2/.process_management
+  222  > /opt/281024-wdm/Daniela_Roehrig2/process_management
+  223  > /opt/281024-wdm/nikita/.process_management
+  224  > /opt/131224_WDM/IRINA_VARIABLE/.process_management
+  225  > [ec2-user@ip-10-0-42-153 /]$ cd /opt/250425-wdm/juliia/.process_management
+  226  > -bash: cd: /opt/250425-wdm/juliia/.process_management: Not a directory
+  227  > [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  228  > 06/16/25
+  229  > Welcome to Amazon server
+  230  > Mem:           952M        217M        380M        480K        353M        560M
+  231  > Number of root processes: 85
+  232  > [ec2-user@ip-10-0-42-153 /]$ ls -la /opt/250425-wdm/juliia/
+  233  > total 12
+  234  > drwxrwxr-x  3 ec2-user ec2-user  95 Jun 16 11:22 .
+  235  > drwxrwxr-x 16 ec2-user ec2-user 229 Jun 15 12:46 ..
+  236  > -rwxr--r--  1 ec2-user ec2-user   0 Jun 16 11:09 file.txt
+  237  > -rw-rw-r--  1 ec2-user ec2-user 143 Jun 16 10:02 .process_management
+  238  > -rwxrwxr-x  1 ec2-user ec2-user 156 Jun 16 11:52 script.sh
+  239  > drwxrwxr-x  2 ec2-user ec2-user  24 Jun  4 07:48 test
+  240  > -rw-rw-r--  1 ec2-user ec2-user   8 Jun  4 07:27 test1.txt
+  241  > [ec2-user@ip-10-0-42-153 /]$ [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  242  > -bash: [ec2-user@ip-10-0-42-153: command not found
+  243  > [ec2-user@ip-10-0-42-153 /]$ 06/16/25
+  244  > -bash: 06/16/25: No such file or directory
+  245  > [ec2-user@ip-10-0-42-153 /]$ Welcome to Amazon server
+  246  > -bash: Welcome: command not found
+  247  > [ec2-user@ip-10-0-42-153 /]$ Mem:           952M        217M        380M        480K        353M        560M
+  248  > -bash: Mem:: command not found
+  249  > [ec2-user@ip-10-0-42-153 /]$ Number of root processes: 85
+  250  > -bash: Number: command not found
+  251  > [ec2-user@ip-10-0-42-153 /]$ [ec2-user@ip-10-0-42-153 /]$ ls -la /opt/250425-wdm/juliia/
+  252  > -bash: [ec2-user@ip-10-0-42-153: command not found
+  253  > [ec2-user@ip-10-0-42-153 /]$ total 12
+  254  > -bash: total: command not found
+  255  > [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x  3 ec2-user ec2-user  95 Jun 16 11:22 .
+  256  > -bash: drwxrwxr-x: command not found
+  257  > [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x 16 ec2-user ec2-user 229 Jun 15 12:46 ..
+  258  > -bash: drwxrwxr-x: command not found
+  259  > [ec2-user@ip-10-0-42-153 /]$ -rwxr--r--  1 ec2-user ec2-user   0 Jun 16 11:09 file.txt
+  260  > -bash: -rwxr--r--: command not found
+  261  > [ec2-user@ip-10-0-42-153 /]$ -rw-rw-r--  1 ec2-user ec2-user 143 Jun 16 10:02 .process_management
+  262  > -bash: -rw-rw-r--: command not found
+  263  > [ec2-user@ip-10-0-42-153 /]$ -rwxrwxr-x  1 ec2-user ec2-user 156 Jun 16 11:52 script.sh
+  264  > -bash: -rwxrwxr-x: command not found
+  265  > [ec2-user@ip-10-0-42-153 /]$ drwxrwxr-x  2 ec2-user ec2-user  24 Jun  4 07:48 test
+  266  > -bash: drwxrwxr-x: command not found
+  267  > [ec2-user@ip-10-0-42-153 /]$ -rw-rw-r--  1 ec2-user ec2-user   8 Jun  4 07:27 test1.txt
+  268  > -bash: -rw-rw-r--: command not found
+  269  > [ec2-user@ip-10-0-42-153 /]$ [ec2-user@ip-10-0-42-153 /]echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+  270  > -bash: [ec2-user@ip-10-0-42-153: command not found
+  271  > [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+  272  > [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE
+  273  >
+  274  > [ec2-user@ip-10-0-42-153 /]$ export JULIIA_VARIABLE=250425-wdm
+  275  > [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE
+  276  > 250425-wdm
+  277  > [ec2-user@ip-10-0-42-153 /]$ echo $JULIIA_VARIABLE >> /opt/250425-wdm/juliia/.process_management
+  278  > [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' >> /opt/250425-wdm/juliia/.process_management
+  279  > [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' >> /opt/250425-wdm/juliia/.process_management
+  280  > [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  281  > 06/16/25
+  282  > Welcome to Amazon server
+  283  > Mem:           952M        217M        380M        480K        353M        560M
+  284  > Number of root processes: 85
+  285  >
+  286  > 250425-wdm
+  287  > PID 23813 PPID 1
+  288  > PID 23813 PPID 1
+  289  > [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' | uniq >> /opt/250425-wdm/juliia/.process_management
+  290  > [ec2-user@ip-10-0-42-153 /]$
+  291  > ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' | head -1 >> /opt/250425-wdm/juliia/.process_management
+  292  >        _/m/'           https://aws.amazon.com/linux/amazon-linux-2023/
+  293             _/ _/       Amazon Linux 2023, GA and supported until 2028-03-15.
+  294    -bash: unexpected EOF while looking for matching `''
+  295  -bash: syntax error: unexpected end of file
+  296  [ec2-user@ip-10-0-42-153 /]$        _/m/'           https://aws.amazon.com/linux/amazon-linux-2023/
+  297                                        _/ _/       Amazon Linux 2023, GA and supported until 2028-03-15. 8 package(s) needed for secucat /opt/250425-wdm/juliia/.process_managementhistory | tail -10          cat: /opt/250425-wdm/juliia/.process_managementhistory: No such file or directory
+  298  [ec2-user@ip-10-0-42-153 /]$ history | tail -10
+  299  250425-wdm
+  300  PID 23813 PPID 1
+  301  PID 23813 PPID 1
+  302  [ec2-user@ip-10-0-42-153 /]$ ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' | uniq >> /opt/250425-wdm/juliia/.process_management
+  303  [ec2-user@ip-10-0-42-153 /]$
+  304  ps -eo pid,ppid,cmd | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID " $1 " PPID " $2}' | head -1 >> /opt/250425-wdm/juliia/.process_management
+  305   1041  cat /opt/250425-wdm/juliia/.process_managementhistory | tail -10
+  306   1042  history | tail -10
+  307  [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  308  06/16/25
+  309  Welcome to Amazon server
+  310  Mem:           952M        217M        380M        480K        353M        560M
+  311  Number of root processes: 85
+  312  250425-wdm
+  313  PID 23813 PPID 1
+  314  PID 23813 PPID 1
+  315  PID 23813 PPID 1
+  316  [ec2-user@ip-10-0-42-153 /]$ cp /opt/250425-wdm/juliia/.process_management /opt/250425-wdm/juliia/.process_management.bak
+  317  [ec2-user@ip-10-0-42-153 /]$ awk '!seen[$0]++' /opt/250425-wdm/juliia/.process_management > /opt/250425-wdm/juliia/.process_management.tmp
+  318  [ec2-user@ip-10-0-42-153 /]$ mv /opt/250425-wdm/juliia/.process_management.tmp /opt/250425-wdm/juliia/.process_management
+  319  [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  320  06/16/25
+  321  Welcome to Amazon server
+  322  Mem:           952M        217M        380M        480K        353M        560M
+  323  Number of root processes: 85
+  324  250425-wdm
+  325  PID 23813 PPID 1
+  326  [ec2-user@ip-10-0-42-153 /]$ sed -i '/^$/d' /opt/250425-wdm/juliia/.process_management
+  327  [ec2-user@ip-10-0-42-153 /]$ cat /opt/250425-wdm/juliia/.process_management
+  328  06/16/25
+  329  Welcome to Amazon server
+  330  Mem:           952M        217M        380M        480K        353M        560M
+  331  Number of root processes: 85
+  332  250425-wdm
+  333  PID 23813 PPID 1
+  334  [ec2-user@ip-10-0-42-153 /]$ pwd
+  335  /
+  336  [ec2-user@ip-10-0-42-153 /]$ exit
+  337  logout
+  338  head -n 3 <(df -h) > /tmp/file.txt
+  339  nano /tmp/file.txt
+  340  chmod 770 /tmp/file.txt
+  341  cd ~
+  342  nano myfirstbashscript.sh
+  343  chmod +x myfirstbashscript.sh
+  344  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+  345  history >> /tmp/file.txt
+  346  cat /tmp/file.txt
+  347  cat /tmp/file.txt
+  348  cat /tmp/file.txt
+  349  cat /tmp/file.txt
+  350  rm /tmp/file.txt
+  351  ssh ec2-user@linu.itcareerhub.de
+  352  ssh ec2-user@linux.itcareerhub.de
+  353  mkdir git_intro
+  354  rm -r git_intro
+  355  mkdir git_intro
+  356  cd git_intro
+  357  cp '/c/Users/Игорь/Pictures/Saved Pictures/photo_2025-06-18_15-46-19.jpg'
+  358  cp '/c/Users/Игорь/Pictures/Saved Pictures/photo_2025-06-18_15-46-19.jpg' ./
+  359  git init
+  360  git add photo_2025-06-18_15-46-19.jpg
+  361  git commit -m "Added photo"
+  362  git branch -M main
+  363  git remote add origin https://github.com/jursylian/git_intro.git
+  364  git push -u origin main
+  365  mkdir git_intro
+  366  cd git_intro
+  367  cp '/c/Users/Игорь/Pictures/Saved Pictures/photo_2025-06-18_15-46-19.jpg' .
+  368  cd HW1
+  369  Игорь@Ihor MINGW64 ~
+  370  $ cd HW1
+  371  bash: cd: HW1: No such file or directory
+  372  Игорь@Ihor MINGW64 ~
+  373  pwd
+  374  ls -la
+  375  find /c/Users/Ihor -type d -name HW1 2>/dev/null
+  376  cp /c/Users/Игорь/HW1/.process_management /c/Users/Игорь/Desktop/process_management.txt
+  377  ls -la /c/Users/Игорь/Downloads
+  378  ls -la /c/Users/Игорь/Desktop
+  379  cp /c/Users/Игорь/Downloads/.process_management /c/Users/Игорь/Desktop/process_management.txt
+  380  ls -la /c/Users/Игорь/Desktop/HW1
+  381  cp /c/Users/Игорь/Desktop/HW1/.process_management /c/Users/Игорь/Desktop/process_management.txt
+  382  find /c/Users/Игорь -name ".process_management" 2>/dev/null
+  383  nano myfirstbashscript.sh
+  384  ec2-user@linux.itcareerhub.de
+  385  ssh ec2-user@linux.itcareerhub.de
+  386  ssh ec2-user@linux.itcareerhub.de
+  387  mkdir 25/06/25
+  388  mkdir 25.06
+  389  cd 25.06
+  390  git init
+  391  echo "" > text.txt
+  392  git status
+  393  git add text.txt
+  394  git status
+  395  git rm --cached text.txt
+  396  git status
+  397  git add .
+  398  git commit -m "Commit message"
+  399  git branch 
+  400  git branch main
+  401  git branch -m main
+  402  git branch -M main
+  403  git checkout -b test
+  404  git branch
+  405  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  406  ls -l
+  407  ls -a
+  408  cat .gitignore
+  409  git add .
+  410  git commit 
+  411  git rebase main
+  412  git status
+  413  git commit -m "Commit added"
+  414  git rebase main
+  415  git switch main
+  416  git log
+  417  git rebase test
+  418  git log
+  419  switch test
+  420  git switch test
+  421  git log
+  422  git switch main
+  423  git branch -d test
+  424  git branch
+  425  ssh ec2-user@linux.itcareerhub.de
+  426  node -v
+  427  npm install -g sass
+  428  npm i -g sass
+  429  ../
+  430  clear
+  431  npm install -g sass
+  432  C:\Users\mate\AppData\Roaming\npm-cache
+  433  npm install -g sass
+  434  npm install -g sass
+  435  npm install -g sass
+  436  node -v
+  437  npm -v
+  438  npm -v
+  439  node -v
+  440  npm install -g sass
+  441  npm install -g npm
+  442  nvm install 20
+  443  npm install -g sass
+  444  nvm version
+  445  nvm install 20.14.0
+  446  nvm use 20.14.0
+  447  C:\Users\mate\AppData\RoamingC:\Users\mate\AppData\RoamingC:\Users\mate\AppData\Roaming\nvm\temp
+  448  nvm install 20.14.0
+  449  npm install -g sass
+  450  npm -v
+  451  node -v
+  452  nvm ls
+  453  nvm install --lts
+  454  nvm install 22
+  455  node -v
+  456  npm -v
+  457  node -v
+  458  node -v
+  459  npm -v
+  460  npm config set prefix "C:\nodejs-global"
+  461  node -v
+  462  node -v
+  463  npm -v
+  464  "C:\nodejs\npm.cmd" -v
+  465  nvm version
+  466  nvm uninstall 14.18.2
+  467  npm -v
+  468  npm -v
+  469  "C:\nodejs\npm.cmd" -v
+  470  git clone https://github.com/jursylian/git-branch.git
+  471  cd git-branch
+  472  git checkout -b gitignore
+  473  echo "# Ignore node_modules and logs node_modules/*.log
+  474  echo "# Ignore node_modules and logs node_modules/*.log.DS_Store" > .gitignore
+  475  echo -e "# Ignore node_modules and logs\nnode_modules/\n*.log\n.DS_Store" > .gitignore
+  476  cat .gitignore
+  477  mkdir git-branch
+  478  cd git-branch
+  479  git init
+  480  git checkout -b gitignore
+  481  echo -e "node_modules/\n.env\n.DS_Store\n*.log" > .gitignore
+  482  git add .gitignore
+  483  git commit -m "Added .gitignore file"
+  484  git remote add origin https://github.com/jursylian/git-branch.git
+  485  git push -u origin gitignore
+  486  ssh ec2-user@linux.itcareerhub.de
+  487  ../
+  488  ~
+  489  cp /opt/250425-wdm/juliia/permission_checker.sh ~/
+  490  ssh ec2-user@linux.itcareerhub.de
+  491  cat /opt/250425-wdm/juliia/permission_checker.sh
+  492  scp ec2-user@linux.itcareerhub.de>:~/permission_checker.sh
+  493  scp ec2-user@linux.itcareerhub.de>:~/permission_checker.sh .
+  494  scp ec2-user@linux.itcareerhub.de:/home/ec2-user/permission_checker.sh .
+  495  git clone https://github.com/jursylian/git-feature-practice.git
+  496  cd git-feature-practice
+  497  git checkout -b feature
+  498  nano README.md
+  499  nano .gitignore
+  500  git add README.md .gitignore
+  501  git commit -m "add feature updates to readme and gitignore"
+  502  git push -u origin feature
+  503  git commit --amend -m "add feature updates to readme and gitignore [amend]"
+  504  git push --force
+  505  git checkout main
+  506  git branch -a
+  507  git checkout -b main
+  508  git merge feature
+  509  git push -u origin main
+  510  history > history.txt
